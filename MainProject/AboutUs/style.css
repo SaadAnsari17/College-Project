@@ -1,0 +1,46 @@
+.body{
+    background-color: #141414;
+    font-family: 'Nunito', sans-serif;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* space-between: 10px; */
+    /* background-color: green; */
+}
+
+.title{
+    margin: 30px;
+    width: 500px;
+    /* background-color: blue; */
+    height: 200px;
+    
+}
+
+.card{
+    margin-left: 10px;
+    width: 33.33%;
+}
+
+.flex1{
+    margin-top: 30px;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.flex1 card{
+    margin-left: 70px;
+    /* width: 33.33%; */
+}
+
