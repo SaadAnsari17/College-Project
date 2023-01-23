@@ -17,11 +17,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      #nav-1:hover {
+        position: relative;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    </style>
   </head>
   <body>
     <div>
@@ -50,7 +63,9 @@
         <div class="collapse navbar-collapse me-3" id="navbarMenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a href="../Home/index.html" class="nav-link active">Home</a>
+              <a href="../Home/index.html" class="nav-link active" id="nav-1"
+                >Home</a
+              >
             </li>
             <li class="nav-item active me-2">
               <a href="../AboutUs/AboutUs.html" class="nav-link">About Us</a>
@@ -141,12 +156,13 @@
             font-size: xx-large;
             font-weight: bolder;
             text-align: center;
-            padding-bottom: 30px;
             padding-top: 30px;
           "
+          class="section-header"
         >
           Our Popular Courses
         </h2>
+        <div class="line" style="margin-bottom: 50px"></div>
         <div class="row g-5">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card">
@@ -161,7 +177,9 @@
                   Necessitatibus, velit est voluptates delectus pariatur optio
                   aspernatur aut. Ullam, suscipit sit!
                 </p>
-                <a href="../Courses/courses.html" class="btn btn-warning">Learn more</a>
+                <a href="../Courses/courses.html" class="btn btn-warning"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
@@ -178,7 +196,9 @@
                   Necessitatibus, velit est voluptates delectus pariatur optio
                   aspernatur aut. Ullam, suscipit sit!
                 </p>
-                <a href="../Courses/courses.html" class="btn btn-warning">Learn more</a>
+                <a href="../Courses/courses.html" class="btn btn-warning"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
@@ -195,124 +215,173 @@
                   Necessitatibus, velit est voluptates delectus pariatur optio
                   aspernatur aut. Ullam, suscipit sit!
                 </p>
-                <a href="../Courses/courses.html" class="btn btn-warning">Learn more</a>
+                <a href="../Courses/courses.html" class="btn btn-warning"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <section>
+    <section style="background-color: #8c52ff">
       <div class="container">
-          <h1 class="section-header">Testimonials</h1>
-          <div class="line"></div>
-          <div class="testimonials">
-              
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="single-item">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="profile">
-                                    <div class="img-area">
-                                        <img src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1366&q=80" alt="">
-                                    </div>
-                                    <div class="bio">
-                                        <h2>Dave Wood</h2>
-                                        <h4>Web Developer</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="content">
-                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
-                                    <p class="socials">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-behance"></i>
-                                        <i class="fa fa-pinterest"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-vimeo"></i>
-                                    </p>
-                                </div>
-                            </div>
+        <h1 class="section-header">Testimonials</h1>
+        <div class="line"></div>
+        <div class="testimonials">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="img-area">
+                          <img
+                            src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1366&q=80"
+                            alt=""
+                          />
                         </div>
+                        <div class="bio">
+                          <h2>Dave Wood</h2>
+                          <h4>Web Developer</h4>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="single-item">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="profile">
-                                    <div class="img-area">
-                                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
-                                    </div>
-                                    <div class="bio">
-                                        <h2>Sarah Guptill</h2>
-                                        <h4>UI/UX Designer</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="content">
-                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
-                                    <p class="socials">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-behance"></i>
-                                        <i class="fa fa-pinterest"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-vimeo"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="single-item">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="profile">
-                                    <div class="img-area">
-                                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
-                                    </div>
-                                    <div class="bio">
-                                        <h2>Stephen Jones</h2>
-                                        <h4>Graphic Designer</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="content">
-                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
-                                    <p class="socials">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-behance"></i>
-                                        <i class="fa fa-pinterest"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-vimeo"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="fa fa-quote-left"></i></span>Lorem
+                          ipsum dolor sit amet, consectetur adipisicing elit.
+                          Vel a eius excepturi molestias commodi aliquam error
+                          magnam consectetur laboriosam numquam, minima eveniet
+                          nostrum sequi saepe ipsam non ea, inventore tenetur!
+                          Corporis commodi consequatur molestiae voluptatum!
+                        </p>
+                        <p class="socials">
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-behance"></i>
+                          <i class="fa fa-pinterest"></i>
+                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-vimeo"></i>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
-              
+              <div class="carousel-item">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="img-area">
+                          <img
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt=""
+                          />
+                        </div>
+                        <div class="bio">
+                          <h2>Sarah Guptill</h2>
+                          <h4>UI/UX Designer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="fa fa-quote-left"></i></span>Lorem
+                          ipsum dolor sit amet, consectetur adipisicing elit.
+                          Vel a eius excepturi molestias commodi aliquam error
+                          magnam consectetur laboriosam numquam, minima eveniet
+                          nostrum sequi saepe ipsam non ea, inventore tenetur!
+                          Corporis commodi consequatur molestiae voluptatum!
+                        </p>
+                        <p class="socials">
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-behance"></i>
+                          <i class="fa fa-pinterest"></i>
+                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-vimeo"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="img-area">
+                          <img
+                            src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt=""
+                          />
+                        </div>
+                        <div class="bio">
+                          <h2>Stephen Jones</h2>
+                          <h4>Graphic Designer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="fa fa-quote-left"></i></span>Lorem
+                          ipsum dolor sit amet, consectetur adipisicing elit.
+                          Vel a eius excepturi molestias commodi aliquam error
+                          magnam consectetur laboriosam numquam, minima eveniet
+                          nostrum sequi saepe ipsam non ea, inventore tenetur!
+                          Corporis commodi consequatur molestiae voluptatum!
+                        </p>
+                        <p class="socials">
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-behance"></i>
+                          <i class="fa fa-pinterest"></i>
+                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-vimeo"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+        </div>
       </div>
-  </section>
-  
-  
+    </section>
+
     <footer class="py-3" style="background-color: #141414; color: white">
       <div class="container">
         <div class="row">
@@ -380,6 +449,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
   </body>
 </html>
