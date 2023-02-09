@@ -7,7 +7,7 @@ body{
 #preloader{
     background: #141414 url('OtherContents/images/giff.gif') no-repeat center center;
     background-size: 15%;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: fixed;
     z-index: 100;
