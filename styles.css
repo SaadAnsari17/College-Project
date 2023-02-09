@@ -8,6 +8,9 @@ body{
 body, .courses{
     background-color: #141414;
 }
+.card-body{
+    background-color: #8c52ff;
+}
 .courses .container{
     background-color: #141414;
           color: white;
