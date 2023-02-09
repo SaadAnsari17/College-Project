@@ -1,8 +1,10 @@
 body{    
-    background-color: #141414;
     font-family: 'Nunito', sans-serif;
     color: #fff;
     
+}
+body, .courses{
+    background-color: #141414;
 }
 #preloader{
     background: #141414 url('OtherContents/images/giff.gif') no-repeat center center;
@@ -13,33 +15,8 @@ body{
     z-index: 9999;
 }
 
-body, .courses{
-    background-color: #141414;
-}
-.card-body{
-    background-color: #8c52ff;
-}
-.courses .container{
-    background-color: #141414;
-          color: white;
-          margin-top: 40px;
-          border-top: #8c52ff solid;
-          border-bottom: #8c52ff solid;
-          padding-bottom: 50px;
 
-}
 
-.section-header{
-            font-size: xx-large;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 30px;
-          
-
-}
-.line{
-    margin-bottom: 50px;
-}
 .jumbotron{
     background-image: url('OtherContents/images/giff.gif');
           color: white;
@@ -70,6 +47,23 @@ body, .courses{
     color: #fff;
 }
 
+.courses .container{
+    background-color: #141414;
+          color: white;
+          margin-top: 40px;
+          border-top: #8c52ff solid;
+          border-bottom: #8c52ff solid;
+          padding-bottom: 50px;
+
+}
+.card-body{
+    background-color: #8c52ff;
+}
+
+
+.line{
+    margin-bottom: 50px;
+}
 section {
     background-color: #8c52ff;
     display: grid;
@@ -79,10 +73,10 @@ section {
 }
 .section-header{
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 10px;
     text-align: center;
-    font-weight: 900;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 50px;
     padding-bottom: 25px;
     
 
