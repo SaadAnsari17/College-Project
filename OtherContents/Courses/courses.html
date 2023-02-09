@@ -2,103 +2,12 @@
 <html lang="en">
   <head>
     <title>Courses📚</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    />
+    <script type="module" src="../../links.js"></script>
+    <my-links></my-links>
   </head>
   <body style="background-color: #8c52ff">
-    <nav
-      class="navbar fixed-top navbar-expand-md navbar-dark"
-      style="background-color: #141414"
-    >
-      <a href="#" class="navbar-brand mb-0">
-        <img
-          class="d-inline-block align-top ms-0.5"
-          src="../images/logo.png"
-          style="height: 70px; width: 190px; object-fit: cover"
-        />
-      </a>
-      <button
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarMenu"
-        class="navbar-toggler"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle-navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse me-3" id="navbarMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a href="../Home/index.html" class="nav-link active" id="nav-1"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item active me-2">
-            <a href="../AboutUs/AboutUs.html" class="nav-link">About Us</a>
-          </li>
-        </ul>
-        <button
-          type="button"
-          class="btn me-3"
-          style="background-color: #8c52ff; color: white"
-        >
-          Sign Up
-        </button>
-        <button
-          type="button"
-          class="btn"
-          style="
-            background-color: #141414;
-            color: #8c52ff;
-            border: 1px solid #8c52ff;
-          "
-        >
-          Login
-        </button>
-      </div>
-    </nav>
-
-    <!-- <div
-      style="
-        padding-top: 80px;
-        padding-bottom: 80px;
-        margin-bottom: 100px;
-        margin-top: 150px;
-        border: solid white;
-        background-color: #141414;
-        color: white;
-      "
-    >
-      <h1 style="text-align: center">Courses📚</h1>
-      <p style="margin-top: 0; text-align: center;">
-        Explore our courses and choose your learning path! get used to the
-        concepts with our hands-on labs and embark on your jounrey of success,
-        Good luck!
-      </p>
-    </div> -->
+    <script type="module" src="../../header.js"></script>
+    <my-header></my-header>
 
     <div
       class="container"
@@ -317,66 +226,7 @@
       </div>
     </div>
 
-    <footer class="py-3" style="background-color: #141414; color: white">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h4>About Us</h4>
-            <p>Learn about our company and mission.</p>
-            <a
-              href="../AboutUs/Aboutus.html"
-              class="btn btn-lg"
-              style="background-color: #8c52ff; color: white"
-              >Learn More</a
-            >
-          </div>
-          <div class="col-md-4">
-            <h4>Contact Us</h4>
-            <ul class="list-unstyled">
-              <li>Email: info@tdent.com</li>
-              <li>Phone: 555-555-5555</li>
-              <li>Address: 123 Main St, Anytown USA</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Connect With Us</h4>
-            <ul class="list-inline"> 
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-github" style="color: #8c52ff"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter" style="color: #8c52ff"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-instagram" style="color: #8c52ff"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in" style="color: #8c52ff"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-meta" style="color: #8c52ff"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-12">
-            <p class="text-center" style="text-decoration-line: underline">
-              Copyright © {{ year }} T-dent Inc.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <script type="module" src="../../footer.js"></script>
+    <my-footer></my-footer>
   </body>
 </html>

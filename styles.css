@@ -4,7 +4,62 @@ body{
     color: #fff;
     
 }
+
+body, .courses{
+    background-color: #141414;
+}
+.courses .container{
+    background-color: #141414;
+          color: white;
+          margin-top: 40px;
+          border-top: #8c52ff solid;
+          border-bottom: #8c52ff solid;
+          padding-bottom: 50px;
+
+}
+.section-header{
+            font-size: xx-large;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 30px;
+          
+
+}
+.line{
+    margin-bottom: 50px;
+}
+.jumbotron{
+    background-image: url('OtherContents/images/giff.gif');
+          color: white;
+          padding-top: 200px;
+          padding-bottom: 200px;
+          background-repeat: no-repeat;
+          background-color: #141414;
+          background-position: right 70%;
+          background-size: 1600px 1200px;
+
+}
+.title{
+    width: 50%;
+
+}
+.title h1{
+    font-weight:bolder;
+}
+
+.title p{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+
+}
+
+.title a{
+    background-color: #8c52ff;
+    color: #fff;
+}
+
 section {
+    background-color: #8c52ff;
     display: grid;
     place-items: center;
     height: 100vh;
