@@ -10,6 +10,7 @@
     <my-links></my-links>
   </head>
   <body>
+    <div id="preloader" style=""></div>
     <div>
       <script type="module" src="./header.js"></script>
     <my-header></my-header>
@@ -283,5 +284,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      var loader = document.getElementById("preloader");
+window.addEventListner("load",function(){
+loader.style.display = "none";
+})
+    </script>
   </body>
 </html>
