@@ -9,7 +9,7 @@ class MyHeader extends HTMLElement {
           <img
             class="d-inline-block align-top ms-2"
             src="OtherContents/images/logo.png"
-            style="height: 70px; width: 250px; object-fit: cover"
+            style="height: 70px; width: 250px; object-fit: cover; margin-top:3px"
           />
         </a>
         <button
