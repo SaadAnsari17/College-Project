@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>T-Dent</title>
 
-    <script type="module" src="./links.js"></script>
-    <my-links></my-links>
+
+    <!-- LINKS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
   </head>
-  <body onload="myFunction()">
+  <body>
+    <!-- onload="myFunction()" -->
     <!-- <div id="preloader" ></div> -->
     <div>
       <script type="module" src="./header.js"></script>
@@ -21,15 +49,8 @@
             Learn from the best with our cutting-edge technology and expert
             instructors.
           </p>
-          <a href="OtherContents/Courses/courses.html" class="btn btn-lg ms-2"
-            >Courses</a
-          >
-          <a href="OtherContents/Teachers/teachers.html" class="btn btn-lg ms-2"
-            >Teachers</a
-          >
-          <a href="OtherContents/Notes/notes.html" class="btn btn-lg ms-2"
-            >Notes</a
-          >
+          <a href="./courses.html" class="btn btn-lg ms-2">Courses</a>
+          <a href="./teachers.html" class="btn btn-lg ms-2">Teachers</a>
         </div>
       </div>
     </div>
@@ -40,10 +61,7 @@
         <div class="row g-5">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card">
-              <img
-                src="OtherContents/images/front-end.jpeg"
-                class="card-img-top"
-              />
+              <img src="./images/front-end.jpeg" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Front-End development</h5>
                 <p class="card-text">
@@ -51,15 +69,13 @@
                   Necessitatibus, velit est voluptates delectus pariatur optio
                   aspernatur aut. Ullam, suscipit sit!
                 </p>
-                <a href="Courses/courses.html" class="btn btn-warning"
-                  >Learn more</a
-                >
+                <a href="./courses.html" class="btn btn-warning">Learn more</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card">
-              <img src="OtherContents/images/DevOps.jpg" class="card-img-top" />
+              <img src="./images/DevOps.jpg" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">DevOps</h5>
                 <p class="card-text">
@@ -67,15 +83,13 @@
                   Necessitatibus, velit est voluptates delectus pariatur optio
                   aspernatur aut. Ullam, suscipit sit!
                 </p>
-                <a href="Courses/courses.html" class="btn btn-warning"
-                  >Learn more</a
-                >
+                <a href="./courses.html" class="btn btn-warning">Learn more</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card">
-              <img src="OtherContents/images/web3.jpeg" class="card-img-top" />
+              <img src="./images/web3.jpeg" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">Web3</h5>
                 <p class="card-text">
@@ -249,19 +263,128 @@
         </div>
       </div>
     </section>
-    <script type="module" src="./footer.js"></script>
-    <my-footer></my-footer>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Question #1
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to
+            demonstrate the <code>.accordion-flush</code> class. This is the
+            first item's accordion body.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            Question #2
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to
+            demonstrate the <code>.accordion-flush</code> class. This is the
+            second item's accordion body. Let's imagine this being filled with
+            some actual content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+          >
+            Question #3
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to
+            demonstrate the <code>.accordion-flush</code> class. This is the
+            third item's accordion body. Nothing more exciting happening here in
+            terms of content, but just filling up the space to make it look, at
+            least at first glance, a bit more representative of how this would
+            look in a real-world application.
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="scrollBtn" onclick="scrollToTop()">&#9650;</button>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="./Js/footer.js"></script>
+    <my-footer></my-footer>
+
+    <!-- preloader -->
     <script>
       var loader = document.getElementById("preloader");
       function myFunction() {
         loader.style.display = "none";
       }
+    </script>
+
+    <!-- Scroll to top button -->
+    <script>
+      const scrollBtn = document.querySelector('#scrollBtn');
+
+window.addEventListener('scroll', () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
     </script>
   </body>
 </html>

@@ -9,12 +9,7 @@ class MyFooter extends HTMLElement{
             <div class="col-md-4">
               <h4>About Us</h4>
               <p>Learn about our company and mission.</p>
-              <a
-                href="./OtherContents/AboutUs/Aboutus.html"
-                class="btn btn-lg"
-                style="background-color: #8c52ff; color: white"
-                >Learn More</a
-              >
+              
             </div>
             <div class="col-md-4">
               <h4>Contact Us</h4>

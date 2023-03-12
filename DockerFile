@@ -1,0 +1,11 @@
+FROM php:7.4-apache
+
+# Install necessary PHP extensions
+RUN docker-php-ext-install mysqli
+
+# Copy website files to container
+COPY  . /var/www/html/
+
+
+
+
